@@ -1,0 +1,29 @@
+.filter-gender__controler{
+    width: 100%;
+
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-1);
+
+    margin-top: 1.25rem;
+}
+.filter-gender__container{
+    width: 100%;
+    max-width: var(--container);
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.filter-gender__container h1{
+    font-size: var(--font-2);
+
+    margin-bottom: var(--spacing);
+}
+.gender__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 1.5rem;
+}

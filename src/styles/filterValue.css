@@ -1,0 +1,36 @@
+.filter-value__controler{
+    width: 100%;
+
+    font-family: var(--font-family);
+}
+.filter-value__container{
+    width: 100%;
+    max-width: var(--container);
+
+    margin: 0 auto;
+}
+.filter-value__container .header-filter-value__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: var(--spacing);
+}
+.filter-value__container .header-filter-value__container h1{
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-1);
+}
+.filter-value__container .header-filter-value__container p{
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-1);
+}
+.filter-value__container .bar__value{
+    margin-top: var(--spacing);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter-value__container .bar__value input{
+    width: 100%;
+}

@@ -1,0 +1,31 @@
+.header__controler{
+    width: 100%;
+
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-1);
+}
+.header__container{
+    width: 100%;
+    max-width: var(--container);
+    height: 20vh;
+    max-height: 5rem;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__controler h1{
+    font-size: var(--font-1);
+}
+.header__container > div{
+    background-color: var(--color-grey-7);
+
+    padding: .2rem;
+
+    border-radius: var(--radius-1);
+}
+.header__controler img{
+
+}

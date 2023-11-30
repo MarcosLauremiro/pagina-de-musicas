@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
+
+:root {
+  --color-brand-1:#9747ff;
+  --color-grey-0: #15171a;
+  --color-grey-1: #212529;
+  --color-grey-2: #2b2f33;
+  --color-grey-3: #868e96;
+  --color-grey-4: #adb5bd;
+  --color-grey-5: #ced4da;
+  --color-grey-6: #dee2e6;
+  --color-grey-7: #f1f3f5;
+  --color-grey-8: #f8f9fa;
+  --color-grey-9: #fdfeff;
+
+  --color-disable-fixed: #212529;
+  --color-actived-fixed: #2b2f33;
+  --color-white-fixed: #ffffff;
+
+  --font-1: 1.75rem;
+  --font-2: 1rem;
+  --font-3: 0.875rem;
+  --font-family: "Inter", sans-serif;
+  --font-weight-1: 500;
+
+  --radius-1: 0.25rem;
+  --container: 45rem;
+
+  --spacing: 1.5rem;
+}
+.dark-mode:root{
+  --color-brand-1:#9747ff;
+  --color-grey-9: #15171a;
+  --color-grey-8: #212529;
+  --color-grey-7: #2b2f33;
+  --color-grey-6: #868e96;
+  --color-grey-5: #adb5bd;
+  --color-grey-4: #ced4da;
+  --color-grey-3: #dee2e6;
+  --color-grey-2: #f1f3f5;
+  --color-grey-1: #f8f9fa;
+  --color-grey-0: #fdfeff;
+
+  --color-disable-fixed: #212529;
+  --color-actived-fixed: #2b2f33;
+  --color-white-fixed: #ffffff;
+
+  --font-1: 1.75rem;
+  --font-2: 1rem;
+  --font-3: 0.875rem;
+  --font-family: "Inter", sans-serif;
+  --font-weight-1: 500;
+
+  --radius-1: 0.25rem;
+  --container: 45rem;
+
+  --spacing: 1.5rem;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-grey-9);
+  color: var(--color-grey-1);
+}
+
+.container {
+  width: var(--container);
+  max-width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}

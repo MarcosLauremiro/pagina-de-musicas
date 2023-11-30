@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/filterGender.css">
+    <link rel="stylesheet" href="./src/styles/darkMode.css">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" href="./src/styles/filterValue.css">
+    <link rel="stylesheet" href="./src/styles/albuns.css">
+
+    <link rel="shortcut icon" href="./src/assets/img/favicon.ico" type="image/x-icon">
+    <title>Open Music</title>
+  </head>
+  <body>
+    <header class="header__controler">
+      <div class="header__container">
+        <h1>Open music</h1>
+        <div class="bnt-drak-mod">
+          <img class="sunMoon" src="./src/assets/img/moon.svg" alt="darck/light">
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="filter-gender__controler">
+        <div class="filter-gender__container">
+          <h1>Gênero Musical</h1>
+          <div class="gender__container">
+            <button class="button">Todos</button>
+            <button class="button">Pop</button>
+            <button class="button">MPB</button>
+            <button class="button">Forró</button>
+            <button class="button">Samba</button>
+          </div>
+        </div>
+      </section>
+      <section class="filter-value__controler">
+        <div class="filter-value__container">
+          <div class="header-filter-value__container">
+            <h1>Definir preço</h1>
+            <p>Até R$ 00.00</p>
+          </div>
+          <div class="bar__value">
+            <input value="0" type="range" min="0" max="100" name="" id="valueFilter">
+          </div>
+        </div>
+      </section>
+      <section class="albuns__controler">
+        <div class="title">
+          <h1>Albuns Encontrados</h1>
+        </div>
+        <ul class="albuns__container">
+          <li class="album">
+            <div class="capa">
+              <figure>
+                <img src="src/assets/img/1.jpg" alt="">
+              </figure>
+              <div class="banda-ano">
+                <figcaption>banda</figcaption>
+                <figcaption>ano</figcaption>
+              </div>
+            </div>
+            <div class="infos">
+              <h3>Titulo</h3>
+              <div>
+                <span>R$ valor</span>
+                <button class="button">comprar</button>
+              </div>
+            </div>
+          </li>
+          <li class="album">
+            <div class="capa">
+              <figure>
+                <img src="src/assets/img/1.jpg" alt="">
+              </figure>
+              <div class="banda-ano">
+                <figcaption>banda</figcaption>
+                <figcaption>ano</figcaption>
+              </div>
+            </div>
+            <div class="infos">
+              <h3>Titulo</h3>
+              <div>
+                <span>R$ valor</span>
+                <button class="button">comprar</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- <script src="./src/scripts/theme.js"></script>
+    <script src="./src/scripts/productsData.js"></script> -->
+    <script type="module" src="./src/scripts/index.js"></script>
+  </body>
+</html>

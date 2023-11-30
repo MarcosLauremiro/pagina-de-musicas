@@ -1,0 +1,16 @@
+.button{
+    border: none;
+    border-radius: var(--radius-1);
+
+    background-color: var(--color-grey-7);
+
+    padding: .4rem;
+
+    cursor: pointer;
+
+    color: var(--color-grey-1);
+}
+.button:focus{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+}
